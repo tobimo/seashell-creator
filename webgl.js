@@ -41,6 +41,7 @@ function computeShellGeometry(noOfVerticesChanged) {
 }
 
 var scene = new THREE.Scene();
+
 var material = new THREE.MeshPhongMaterial( {color: 0xffffff,
                                              shininess: 0,
                                              shading: THREE.SmoothShading,
